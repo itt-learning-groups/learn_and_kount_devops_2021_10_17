@@ -24,6 +24,11 @@
 
   * ~~Middleware~~ // Covered: meeting #2
 
+  * Demo: Implementing streaming, vs simple/unary, gRPC endpoints (Luke K.)
+    * See demo [README](https://github.com/itt-learning-groups/grpc_streaming_demo/blob/main/README.md) and [code](https://github.com/itt-learning-groups/grpc_streaming_demo).
+
+    * **Exercise 6**: ...
+
   * [gRPC-Gateway](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/introduction/)
     * Reads a gRPC service definition and generates a reverse-proxy server which translates a RESTful JSON API into gRPC
     !["016"](img/016.png "016")
@@ -32,12 +37,7 @@
       * example from etcd: [Why gRPC gateway](https://etcd.io/docs/v3.4/dev-guide/api_grpc_gateway/): "For languages with no gRPC support, etcd provides a JSON gRPC gateway. This gateway serves a RESTful proxy that translates HTTP/JSON requests into gRPC messages."
     * [Adding gRPC-Gateway annotations to an existing proto file](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/adding_annotations/)
 
-    * **Exercise 6**: Add gRPC-Gateway to the proto file for your gRPC server from Exercise 3. Recompile using `buf`. Then implement your server as a REST server using gRPC-Gateway running on localhost:8080. Test a REST request using `curl`, a browser, or Postman.
-
-  * Demo: Implementing streaming, vs simple/unary, gRPC endpoints (Luke K.)
-    * See demo [README](https://github.com/itt-learning-groups/grpc_streaming_demo/blob/main/README.md) and [code](https://github.com/itt-learning-groups/grpc_streaming_demo).
-
-    * **Exercise 7**: ...
+    * **Exercise 7**: Add gRPC-Gateway to the proto file for your gRPC server from Exercise 3. Recompile using `buf`. Then implement your server as a REST server using gRPC-Gateway running on localhost:8080. Test a REST request using `curl`, a browser, or Postman.
 
 * Resources, links
   
