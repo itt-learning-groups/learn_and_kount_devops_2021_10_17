@@ -27,7 +27,7 @@
   * Demo: Implementing streaming, vs simple/unary, gRPC endpoints (Luke K.)
     * See demo [README](https://github.com/itt-learning-groups/grpc_streaming_demo/blob/main/README.md) and [code](https://github.com/itt-learning-groups/grpc_streaming_demo).
 
-    * **Exercise 6**: During session we will build a proto file describing a service that has two rpcs. One describing a streaming request, and the other a streaming response. From the [proto](https://github.com/itt-learning-groups/grpc_streaming_exercise) implement the service and client by adding the buf.gen.yaml and buf.yaml, compiling the go packages and implement the concrete services to fulfill the service interface.
+    * **Exercise 6**: During session we will build a proto file describing a service that has two rpcs. One describing a streaming request, and the other a streaming response. From the [proto](https://github.com/itt-learning-groups/grpc_streaming_exercise) implement the service and client by adding the buf.gen.yaml and buf.yaml, compiling the go packages and implement the concrete services to fulfill the service interface
 
   * [gRPC-Gateway](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/introduction/)
     * Reads a gRPC service definition and generates a reverse-proxy server which translates a RESTful JSON API into gRPC
