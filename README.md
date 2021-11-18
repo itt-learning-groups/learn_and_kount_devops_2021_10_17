@@ -29,15 +29,7 @@
 
     * **Exercise 6**: During session we will build a proto file describing a service that has two rpcs. One describing a streaming request, and the other a streaming response. From the [proto](https://github.com/itt-learning-groups/grpc_streaming_exercise) implement the service and client by adding the buf.gen.yaml and buf.yaml, compiling the go packages and implement the concrete services to fulfill the service interface.
 
-  * [gRPC-Gateway](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/introduction/)
-    * Reads a gRPC service definition and generates a reverse-proxy server which translates a RESTful JSON API into gRPC
-    !["016"](img/016.png "016")
-    * Why?
-      * gRPC-Gateway [background](https://grpc-ecosystem.github.io/grpc-gateway/docs/overview/background/): "gRPC is great... However, you might still want to provide a traditional RESTful API as well."
-      * example from etcd: [Why gRPC gateway](https://etcd.io/docs/v3.4/dev-guide/api_grpc_gateway/): "For languages with no gRPC support, etcd provides a JSON gRPC gateway. This gateway serves a RESTful proxy that translates HTTP/JSON requests into gRPC messages."
-    * [Adding gRPC-Gateway annotations to an existing proto file](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/adding_annotations/)
-
-    * **Exercise 7**: Add gRPC-Gateway to the proto file for your gRPC server from Exercise 3. Recompile using `buf`. Then implement your server as a REST server using gRPC-Gateway running on localhost:8080. Test a REST request using `curl`, a browser, or Postman.
+  * [gRPC-Gateway](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/introduction/) // Todo: approx. meeting #4
 
 * Resources, links
   
@@ -45,10 +37,10 @@
   * [A Guide to gRPC and Interceptors](https://edgehog.blog/a-guide-to-grpc-and-interceptors-265c306d3773) (blog article also referenced above in Exercise 2)
   * [gRPC Go: Beyond the basics](https://blog.gopheracademy.com/advent-2017/go-grpc-beyond-basics/), from Gopher Academy Blog: *"The purpose of this blog is to be a guideline for where to find the resources and leverage these libraries and features to make the most of the gRPC ecosystem after you understand the basics of gRPC"*
 
-* Kount implementation and standards/patterns // Todo: approx. meeting #4
+* Kount implementation and standards/patterns // Todo: approx. meeting #5
 
-* Common techniques & tasks, "gotchas", tips & tricks // Todo: approx. meeting #4-5
+* Common techniques & tasks, "gotchas", tips & tricks // Todo: approx. meeting #5-6
 
 * ~~{Case Studie(s)}~~ // Skip for this unit
 
-* {"Class" exercise(s)} // Todo: approx. meeting #5-6
+* {"Class" exercise(s)} // Todo: approx. meeting #6
